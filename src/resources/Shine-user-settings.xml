@@ -1,0 +1,9 @@
+<category name="Shine" version="1.01.00" xmlns="UserSettings.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="UserSettings.dtd http://com.hp.ee.server.user.settings/ ">
+    <context name="filter.settings" nameKey="filter.settings.context.name">
+        <setting name="data.filter.name"
+                 nameKey="data.filter.name.key"
+                 required="false">
+            <string></string>
+        </setting>
+    </context>
+ </category>

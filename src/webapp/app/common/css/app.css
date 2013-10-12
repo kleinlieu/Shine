@@ -1,0 +1,77 @@
+html {
+       height: 100%;
+       overflow: hidden;
+       -webkit-overflow-scrolling: touch;
+}
+body {
+    background-color: #ffffff !important;
+    text-align:center;
+    font-weight: normal !important;
+    font-size: 18px;
+    font-family:"HP Simplified" !important;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* Main view style */
+.summaryView {
+       cursor:pointer;
+}
+
+.mainView {
+       font-size: 22px;
+       color: gray;
+       width: 100%;
+       border: 1px dashed gray; 
+       display: table; 
+       text-align:center;
+}
+
+.titleContainer {
+       margin-right: auto; 
+       margin-left: auto; 
+       width: 15%; 
+       padding-top: 20px   
+}
+
+.appTitle {
+       display:table-cell; 
+       vertical-align: middle; 
+       text-align:left; 
+       padding-bottom: 15px;
+       white-space: nowrap;
+}
+
+.appImage {
+       background-image: url(../../common/img/default-app.png);
+       background-repeat: no-repeat;
+       background-position: 50% 20%;
+       height: 144px;
+       width: 130px;
+}
+
+/* HP fonts */
+@font-face {
+    font-family: "HP Simplified";
+    src: url("fonts/HPSimplified_Rg.ttf");
+}
+
+@font-face {
+    font-family: "HP Simplified Light";
+    src: url("fonts/HPSimplified_Lt.ttf");
+}
+
+@font-face {
+    font-family: "HP Simplified Bold";
+    src: url("fonts/HPSimplified.ttf");
+}
+
+@font-face {
+    font-family: "HP Simplified Italic";
+    src: url("fonts/HPSimplified_It.ttf");
+}
+
+
