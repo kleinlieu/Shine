@@ -1,8 +1,20 @@
 <!-- Main Report List View HTML Template -->
-<div  class="mainView">
-		<div class="titleContainer">
-			<div class="appTitle appImage">
-				<div style="color: black">{{HelloWord}}</div>
-			</div>
+<div class="mainView">
+	<div class="titleContainer">
+		<div class="appTitle appImage">
+			<div style="color: black">Shine!</div>
 		</div>
+	</div>
+	<button ng-click="askQuestion()">Ask a new question</button>	
+	<ul class="questionContainer">
+		<li class="question" ng-repeat="question in questions">
+			<div class="title">My Question</div>
+			<img class="avatar" src="http://qph.is.quoracdn.net/main-thumb-3802012-200-ZXvhj2cNprl835DhQgw4E4ecWtPdnSpT.jpeg" width="50px"/>
+			<div class="details">
+				<div class="comment"></div>
+				<div class="meta">4/6 spaces filled</div>
+			</div>
+			<div class="clear"></div>
+		</li>
+	</ul>
 </div> 

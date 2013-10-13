@@ -3,15 +3,24 @@ package com.hp.miniapp.sample;
 import com.hp.btoaw.integration.data.BTOContext;
 import com.hp.btoaw.integration.data.UserProfile;
 import com.hp.btoaw.integration.data.miniapp.*;
+import com.hp.btoaw.integration.service.DataSourceService;
 import com.hp.btoaw.integration.service.bl.AbstractBTOServiceEE;
 import com.hp.btoaw.integration.service.exception.CustomException;
 import com.hp.btoaw.integration.service.provider.DataSourceProvider;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 
 @Service("Shine")
 public class MainApp extends AbstractBTOServiceEE {
+	
+	private static Logger logger = LoggerFactory.getLogger(MainApp.class);
+
+    @Autowired
+    private DataSourceService dataSourceService;
 
     /*
     * return collection of EntryPointDefinitions

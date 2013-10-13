@@ -1,7 +1,7 @@
 var workspaceModule = angular.module('WorkspaceModule', []).config(["$routeProvider", function($routeProvider) {    	
    $routeProvider.
-   when('/' , {controller:"WorkspaceCtrl", templateUrl:'app/common/views/content.html'}).
-   when('/summary' , {controller:"WorkspaceCtrl", templateUrl:'app/common/views/summary.html'}).
+   when('/' , {controller:"ContentCtrl", templateUrl:'app/common/views/content.html'}).
+   when('/summary' , {controller:"SummaryCtrl", templateUrl:'app/common/views/summary.html'}).
    otherwise({ redirectTo: '/' });
 }]);
 

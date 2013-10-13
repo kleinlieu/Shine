@@ -7,12 +7,12 @@
 	<classpathentry kind="var" path="M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-framework-api/10.10.180/integration-framework-api-10.10.180-javadoc.jar">
+	<classpathentry kind="lib" path="/Users/julian/HP/HPAnywhere/repository/com/hp/btoaw/integration-framework-api/10.10.180/integration-framework-api-10.10.180-javadoc.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file://Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-framework-api/10.10.180/integration-framework-api-10.10.180-javadoc-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-model/10.10.180/integration-model-10.10.180.jar">
+	<classpathentry kind="lib" path="/Users/julian/HP/HPAnywhere/repository/com/hp/btoaw/integration-model/10.10.180/integration-model-10.10.180.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file://Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-model/10.10.180/integration-model-10.10.180-javadoc.jar!/"/>
 		</attributes>
@@ -43,12 +43,12 @@
 	<classpathentry kind="var" path="M2_REPO/cglib/cglib/2.2/cglib-2.2.jar"/>
 	<classpathentry kind="var" path="M2_REPO/asm/asm/3.1/asm-3.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/hp/hpa/platform/idm-integration-api/10.10.180/idm-integration-api-10.10.180.jar"/>
-	<classpathentry kind="lib" path="/Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-model/10.10.180/integration-model-10.10.180-javadoc.jar">
+	<classpathentry kind="lib" path="/Users/julian/HP/HPAnywhere/repository/com/hp/btoaw/integration-model/10.10.180/integration-model-10.10.180-javadoc.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file://Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-model/10.10.180/integration-model-10.10.180-javadoc-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-framework-api/10.10.180/integration-framework-api-10.10.180.jar">
+	<classpathentry kind="lib" path="/Users/julian/HP/HPAnywhere/repository/com/hp/btoaw/integration-framework-api/10.10.180/integration-framework-api-10.10.180.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file://Users/klieu/HP/HPAnywhere/repository/com/hp/btoaw/integration-framework-api/10.10.180/integration-framework-api-10.10.180-javadoc.jar!/"/>
 		</attributes>

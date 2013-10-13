@@ -16,6 +16,10 @@ body {
     overflow-y: scroll;
 }
 
+ul {
+	list-style: none;
+}
+
 /* Main view style */
 .summaryView {
        cursor:pointer;
@@ -51,6 +55,22 @@ body {
        background-position: 50% 20%;
        height: 144px;
        width: 130px;
+}
+
+/* .questionContainer {
+	clear: both;
+} */
+
+.clear {
+	clear: both;
+}
+
+.avatar {
+	float: left;
+}
+
+.details {
+	float: left;
 }
 
 /* HP fonts */
